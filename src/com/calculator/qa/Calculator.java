@@ -9,6 +9,9 @@ public class Calculator {
 	public static double division(double num1, double num2) {
 		return num1 / num2;
 	}
+	public static int multiplication(int num1, int num2) {
+		return num1 * num2;
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -17,6 +20,8 @@ public class Calculator {
 
 		System.out.println(division(7,25));
 
+		System.out.println(multiplication(5,5));
+		
 	}
 
 }
